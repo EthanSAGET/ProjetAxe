@@ -1,0 +1,25 @@
+.barre{
+    border: 2px solid black;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+/*.icon-barre{
+
+    top: 15px;
+    right: 10px;
+
+}*/
+
+.searchbar{
+     font-family: 'Kanit', sans-serif;
+    
+}
+
+@media (max-width : 1200px) {
+    .searchbar{
+        display: none;
+    }
+    
+}

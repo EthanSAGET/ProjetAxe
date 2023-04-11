@@ -1,0 +1,80 @@
+.navbar{
+    width: 22em;
+    position: fixed;
+    top: 0px;
+    left: 0em;
+    bottom: 0em;
+    background: var(--navbar-background-color);
+    box-shadow: 0 4px 1px;
+    z-index: 2;
+}
+
+.navbar-menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-titre{
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem ;
+
+}
+.navbar-objet:hover{
+    color: white;
+    font-style: bold;
+    background-color:grey;
+    border-radius: 10%;
+    padding: 1.2em 1.2em;
+    border: solid black;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1rem ;
+
+}
+
+.navbar-icon{
+   font-size: 1.5rem;
+   padding-right: 1.5em;
+   padding-left: 1.1em;
+   color: black;
+
+}
+
+.navbar-objet{
+    width: 100%;
+    border-bottom:solid 1px var(--navbar-separator-color);
+    transition: background-color var(--navbar-transition-speed);
+    padding: 2em 1.2em;
+    align-items: center ;
+}
+
+.navbar-h2{
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    text-align: center;
+}
+.navbar-p{
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.avatar{
+   /*margin-left: 4cm;*/
+   display: flex;
+   justify-content: center;
+   margin-top: 2cm;
+}
+
+@media (max-width : 1300px){
+    
+}
