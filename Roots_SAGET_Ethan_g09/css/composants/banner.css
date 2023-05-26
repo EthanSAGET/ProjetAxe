@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 0px 30px;
     
 }
 
@@ -51,4 +51,15 @@
     justify-content: flex-end;
     align-items: flex-end;
     
+}
+
+@media (max-width: 500px) {
+    .banner-name {
+        display: none;
+    }
+
+    .button {
+        display: flex;
+        justify-content: flex-end;
+    }
 }

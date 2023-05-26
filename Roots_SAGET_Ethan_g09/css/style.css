@@ -7,10 +7,15 @@
 @import url("./composants/button.css");
 @import url("./composants/container.css");
 @import url("./composants/post.css");
-
+@import url("./composants/modal.css");
+@import url("./composants/formulaire_inscription.css");
 
 header{
     z-index:1;
     backdrop-filter: blur(4px);
      
+ }
+
+ body{
+    padding-top: 0px;
  }
